@@ -1,0 +1,88 @@
+.Container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardContainer {
+    height: 522px;
+    width: 384px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 8px 8px black;
+    transition: all 0.3s ease;
+    padding: 24px;
+
+    &:hover {
+        box-shadow: 16px 16px black;
+        cursor: default;
+    }
+
+}
+
+.CardContainer:hover .CardTitle {
+    color: hsl(47, 88%, 63%);
+}
+
+.CardImg {
+    height: 200px;
+    width: 336px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.CardTag {
+    width: 82px;
+    background-color: hsl(47, 88%, 63%);
+    ;
+    border: none;
+    margin-bottom: 12px;
+    padding: 12px 0 12px 0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+}
+
+.CardTitle {
+    margin-bottom: 8px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+}
+
+.CardDate {
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+}
+
+.CardDescription {
+    margin-bottom: 16px;
+    color: hsl(0, 0%, 42%);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+}
+
+.CardFooter {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-bottom: 24px;
+}
+
+.ProfileName {
+    font-size: 14px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+}
+
+.ProfileImg {
+    height: 32px;
+    width: 32px;
+    margin-right: 12px;
+}
